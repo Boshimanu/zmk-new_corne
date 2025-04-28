@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   Colemak:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-tab-reverse$$'}
   - Q
   - W
   - F
@@ -14,22 +14,22 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - A
-  - R
-  - S
-  - T
+  - {t: '$$mdi:backspace$$', h: 'Alt+$$mdi:backspace$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - D
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - N
-  - E
-  - I
-  - O
+  - {t: N, h: RIGHT GUI}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&cat_nav_sh'
   - Z
   - X
   - C
@@ -39,17 +39,17 @@ layers:
   - $$mdi:arrow-down-bold$$
   - K
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>'}
+  - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
-  NUMBER:
+  - '&raycast'
+  - {t: '$$mdi:keyboard-space$$', h: Numbers}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-return$$', h: Mouse}
+  - {t: '$$mdi:keyboard-space$$', h: Move}
+  - Italian
+  Numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  Move:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  Italian:
   - '&studio_unlock'
   - F1
   - F2
@@ -192,11 +192,13 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
+  Emoji:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -243,9 +245,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  BT_Sys:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '5':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -292,9 +294,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  Mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '6':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -338,51 +340,49 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [3, 2]
   k: $$mdi:keyboard-esc$$
-  l: [NUMBER, Colemak, SYMBOL]
+  l: [Numbers, Colemak, Move]
 - p: [30, 29]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  l: [NUMBER, Colemak, SYMBOL]
+  l: [Numbers, Colemak, Move]
 - p: [30, 31]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  l: [NUMBER, Colemak, SYMBOL]
+  l: [Numbers, Colemak, Move]
 - p: [31, 32]
   k: Gui+P
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [3, 4]
   k: $$mdi:backspace-reverse-outline$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [28, 29]
   k: {t: Colemak, h: toggle}
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [17, 16]
   k: Gui+$$mdi:apple-keyboard-shift$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [23, 24]
   k: Gui+$$mdi:apple-keyboard-shift$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [17, 14]
   k: Gui+$$mdi:apple-keyboard-control$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [23, 26]
   k: Gui+$$mdi:apple-keyboard-control$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [15, 17]
   k: Gui+$$mdi:apple-keyboard-option$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [23, 25]
   k: Gui+$$mdi:apple-keyboard-option$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [15, 16]
   k: Alt+$$mdi:apple-keyboard-shift$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
 - p: [25, 24]
   k: AltGr+$$mdi:apple-keyboard-shift$$
-  l: [Colemak, SYMBOL, NUMBER]
+  l: [Colemak, Move, Numbers]
