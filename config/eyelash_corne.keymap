@@ -107,6 +107,52 @@
 
             tapping-term-ms = <185>;
         };
+
+        it_e: it_e {
+            compatible = "zmk,behavior-hold-tap";
+            label = "IT_E";
+            bindings = <&it_shift_egrav>, <&it_egrav>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <145>;
+            quick-tap-ms = <50>;
+            require-prior-idle-ms = <50>;
+            flavor = "balanced";
+        };
+
+        dt_ameth: dt_ameth {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DT_AMETH";
+            #binding-cells = <0>;
+            tapping-term-ms = <185>;
+            bindings = <&kp LA(LS(O))>, <&kp LA(LS(D))>, <&kp LS(LA(J))>;
+        };
+
+        cat_sh_hml: cat_sh_hml {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CAT_SH_HML";
+            #binding-cells = <0>;
+            bindings = <&ht LEFT_SHIFT LS(LA(LG(SLASH)))>, <&to 0>;
+
+            tapping-term-ms = <220>;
+        };
+
+        cat_nav_sh: cat_nav_sh {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CAT_NAV_SH";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&ht LEFT_SHIFT LS(LA(LG(SLASH)))>, <&to 6>;
+        };
+
+        raycast: raycast {
+            compatible = "zmk,behavior-tap-dance";
+            label = "RAYCAST";
+            #binding-cells = <0>;
+            bindings = <&lt 4 LG(SPACE)>, <&kp LC(LG(SPACE))>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -297,6 +343,33 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
