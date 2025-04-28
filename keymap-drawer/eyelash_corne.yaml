@@ -343,3 +343,46 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [3, 2]
+  k: $$mdi:keyboard-esc$$
+  l: [NUMBER, Colemak, SYMBOL]
+- p: [30, 29]
+  k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  l: [NUMBER, Colemak, SYMBOL]
+- p: [30, 31]
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  l: [NUMBER, Colemak, SYMBOL]
+- p: [31, 32]
+  k: Gui+P
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [3, 4]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [28, 29]
+  k: {t: Colemak, h: toggle}
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [17, 16]
+  k: Gui+$$mdi:apple-keyboard-shift$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [23, 24]
+  k: Gui+$$mdi:apple-keyboard-shift$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [17, 14]
+  k: Gui+$$mdi:apple-keyboard-control$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [23, 26]
+  k: Gui+$$mdi:apple-keyboard-control$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [15, 17]
+  k: Gui+$$mdi:apple-keyboard-option$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [23, 25]
+  k: Gui+$$mdi:apple-keyboard-option$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [15, 16]
+  k: Alt+$$mdi:apple-keyboard-shift$$
+  l: [Colemak, SYMBOL, NUMBER]
+- p: [25, 24]
+  k: AltGr+$$mdi:apple-keyboard-shift$$
+  l: [Colemak, SYMBOL, NUMBER]
