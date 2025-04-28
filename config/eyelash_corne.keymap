@@ -123,6 +123,115 @@
         tap-ms = <100>;
     };
 
+    macros {
+        it_egrav: it_egrav {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp RG(E)>;
+            label = "IT_EGRAV";
+            wait-ms = <30>;
+        };
+
+        it_shift_egrav: it_shift_egrav {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "IT_SHIFT_EGRAV";
+        };
+
+        it_i: it_i {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "IT_I";
+        };
+
+        it_o: it_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "IT_O";
+        };
+
+        it_u: it_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "IT_U";
+        };
+
+        it_a: it_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "IT_A";
+        };
+
+        elaugh: elaugh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "ELAUGH";
+            wait-ms = <20>;
+        };
+
+        eok: eok {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "EOK";
+            wait-ms = <20>;
+        };
+
+        ethank: ethank {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "ETHANK";
+            wait-ms = <20>;
+        };
+
+        esmile: esmile {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "ESMILE";
+            wait-ms = <20>;
+        };
+
+        esad: esad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "ESAD";
+            wait-ms = <20>;
+        };
+
+        elove: elove {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "ELOVE";
+            wait-ms = <20>;
+        };
+
+        ehmmm: ehmmm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "EHMMM";
+            wait-ms = <20>;
+        };
+
+        ecoffe: ecoffe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp &kp>;
+            label = "ECOFFE";
+            wait-ms = <20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
