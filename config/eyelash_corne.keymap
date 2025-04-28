@@ -135,42 +135,42 @@
         it_shift_egrav: it_shift_egrav {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp LA(E) &kp E>;
             label = "IT_SHIFT_EGRAV";
         };
 
         it_i: it_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp LA(GRAVE) &kp I>;
             label = "IT_I";
         };
 
         it_o: it_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp LA(GRAVE) &kp O>;
             label = "IT_O";
         };
 
         it_u: it_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp LA(GRAVE) &kp U>;
             label = "IT_U";
         };
 
         it_a: it_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp LA(GRAVE) &kp A>;
             label = "IT_A";
         };
 
         elaugh: elaugh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp L &kp A>;
             label = "ELAUGH";
             wait-ms = <20>;
         };
@@ -178,7 +178,7 @@
         eok: eok {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp O &kp K>;
             label = "EOK";
             wait-ms = <20>;
         };
@@ -186,7 +186,7 @@
         ethank: ethank {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp T &kp H>;
             label = "ETHANK";
             wait-ms = <20>;
         };
@@ -194,7 +194,7 @@
         esmile: esmile {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp S &kp M>;
             label = "ESMILE";
             wait-ms = <20>;
         };
@@ -202,7 +202,7 @@
         esad: esad {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp S &kp A &kp D>;
             label = "ESAD";
             wait-ms = <20>;
         };
@@ -210,7 +210,7 @@
         elove: elove {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp L &kp V>;
             label = "ELOVE";
             wait-ms = <20>;
         };
@@ -218,7 +218,7 @@
         ehmmm: ehmmm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp H &kp M>;
             label = "EHMMM";
             wait-ms = <20>;
         };
@@ -226,9 +226,25 @@
         ecoffe: ecoffe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp>;
+            bindings = <&kp UNDERSCORE &kp C &kp F>;
             label = "ECOFFE";
             wait-ms = <20>;
+        };
+
+        doublecmd: doublecmd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LCMD>;
+            label = "DOUBLECMD";
+            wait-ms = <50>;
+        };
+
+        doublectrl: doublectrl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LCTRL>;
+            label = "DOUBLECTRL";
+            wait-ms = <50>;
         };
     };
 
