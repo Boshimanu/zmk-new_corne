@@ -294,6 +294,122 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <3 2>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <1 0 2>;
+        };
+
+        Cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <30 29>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <1 0 2>;
+        };
+
+        Copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <30 31>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <1 0 2>;
+        };
+
+        Paste {
+            bindings = <&kp LG(P)>;
+            key-positions = <31 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        Del {
+            bindings = <&kp DEL>;
+            key-positions = <3 4>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        toLayerZezo {
+            bindings = <&to 0>;
+            key-positions = <28 29>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        cmd_shift_left {
+            bindings = <&kp LG(LEFT_SHIFT)>;
+            key-positions = <17 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        cmd_shift_right {
+            bindings = <&kp RG(RIGHT_SHIFT)>;
+            key-positions = <23 24>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        ctrl_cmd_left {
+            bindings = <&kp LG(LCTRL)>;
+            key-positions = <17 14>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        cmd_ctrl_right {
+            bindings = <&kp RG(RCTRL)>;
+            key-positions = <23 26>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        alt_cmd_left {
+            bindings = <&kp LG(LEFT_ALT)>;
+            key-positions = <15 17>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        alt_cmd_right {
+            bindings = <&kp RG(RIGHT_ALT)>;
+            key-positions = <23 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        alt+shift-left {
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            key-positions = <15 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        alt+shift-right {
+            bindings = <&kp RA(RIGHT_SHIFT)>;
+            key-positions = <25 24>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0 2 1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
