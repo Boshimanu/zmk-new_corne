@@ -290,6 +290,14 @@
             label = "DOUBLECTRL";
             wait-ms = <50>;
         };
+
+        efp: efp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp UNDERSCORE &kp F &kp P>;
+            label = "EFP";
+            wait-ms = <20>;
+        };
     };
 
     combos {
@@ -461,10 +469,10 @@
 
         Emoji {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans   &elove   &efp        &ehmmm       &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &elaugh  &esmile  &eok        &ethank      &esad             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &doublecmd  &doublectrl  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans      &trans       &trans                                    &trans  &trans  &trans
             >;
 
             label = "Emoji";
