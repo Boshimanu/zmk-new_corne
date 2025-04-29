@@ -502,4 +502,13 @@
             label = "Mouse";
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        BT-Sys {
+            if-layers = <3 4>;
+            then-layer = <5>;
+        };
+    };
 };
