@@ -173,7 +173,7 @@
         it_egrav: it_egrav {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(GRAVE) &kp RG(E)>;
+            bindings = <&kp LA(GRAVE) &kp E>;
             label = "IT_EGRAV";
             wait-ms = <30>;
         };
