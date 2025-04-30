@@ -7,7 +7,7 @@ layers:
   - F
   - P
   - G
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:volume-high$$
   - J
   - L
   - U
@@ -20,9 +20,9 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - D
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:skip-previous$$
+  - {t: Hyper+P, h: '$$mdi:volume-off$$'}
+  - $$mdi:skip-next$$
   - H
   - {t: N, h: RIGHT GUI}
   - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:volume-low$$
   - K
   - M
   - {t: ',', h: <, s: <}
@@ -56,7 +56,7 @@ layers:
   - '#'
   - $
   - '%'
-  - $$mdi:volume-high$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-control$$
   - '&'
   - '*'
@@ -69,9 +69,9 @@ layers:
   - {t: '3', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '4', h: LGUI}
   - {t: '5', s: '%'}
-  - PREVIOUS
-  - {t: '$$mdi:volume-off$$', h: Hyper+P}
-  - $$mdi:skip-next$$
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
   - {t: '6', s: ^}
   - {t: '7', h: RGUI, s: '&'}
   - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: '*'}
@@ -85,7 +85,7 @@ layers:
   - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: 'Meh+$$mdi:arrow-right-bold$$'}
   - '&dt_ameth'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-low$$
+  - $$mdi:arrow-down-bold$$
   - {t: '=', h: +, s: +}
   - {t: '-', h: _, s: _}
   - {t: '$$mdi:transfer$$', type: trans}
