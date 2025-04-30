@@ -424,10 +424,10 @@
         Colemak {
             display-name = "Colemak";
             bindings = <
-&ht LS(TAB) TAB             &kp Q            &kp W               &kp F                 &kp P               &kp G                                    &mmv MOVE_UP                     &kp J        &kp L                &kp U                  &kp Y                    &kp SEMI            &kp BSLH
-&ht_bck LA(BSPC) BACKSPACE  &lhmrow LCTRL A  &lhmrow LEFT_ALT R  &lhmrow LEFT_SHIFT S  &lhmrow LEFT_GUI T  &kp D                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &rhmrow RIGHT_GUI N  &rhmrow RIGHT_SHIFT E  &rhmrow RIGHT_ALT I      &rhmrow RCTRL O     &kp SQT
-&cat_nav_sh                 &kp Z            &kp X               &kp C                 &kp V               &kp B           &none                    &mmv MOVE_DOWN                   &kp K        &kp M                &as LESS_THAN COMMA    &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp RSHFT
-                                                                 &raycast              &lt 1 SPACE         &ht LCMD ENTER                                                            &lt 6 ENTER  &lt 2 SPACE          &mo 3
+&ht LS(TAB) TAB             &kp Q            &kp W               &kp F                 &kp P               &kp G                                &kp C_VOLUME_UP                           &kp J        &kp L                &kp U                  &kp Y                    &kp SEMI            &kp BSLH
+&ht_bck LA(BSPC) BACKSPACE  &lhmrow LCTRL A  &lhmrow LEFT_ALT R  &lhmrow LEFT_SHIFT S  &lhmrow LEFT_GUI T  &kp D                    &kp C_PREV  &as C_MUTE LS(LC(LG(LA(P))))  &kp C_NEXT  &kp H        &rhmrow RIGHT_GUI N  &rhmrow RIGHT_SHIFT E  &rhmrow RIGHT_ALT I      &rhmrow RCTRL O     &kp SQT
+&cat_nav_sh                 &kp Z            &kp X               &kp C                 &kp V               &kp B           &none                &kp C_VOL_DN                              &kp K        &kp M                &as LESS_THAN COMMA    &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp RSHFT
+                                                                 &raycast              &lt 1 SPACE         &ht LCMD ENTER                                                                 &lt 6 ENTER  &lt 2 SPACE          &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -436,10 +436,10 @@
         Numbers {
             display-name = "Numbers";
             bindings = <
-&trans    &kp EXCLAMATION              &kp AT_SIGN                    &kp POUND                      &kp DOLLAR                       &kp PERCENT                           &kp C_VOLUME_UP                           &kp LCTRL       &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
-&trans    &lhmrow LCTRL NUMBER_1       &lhmrow LALT NUMBER_2          &lhmrow LEFT_SHIFT NUMBER_3    &lhmrow LGUI NUMBER_4            &kp N5                &kp C_PREVIOUS  &as LS(LA(LC(LG(P)))) C_MUTE  &kp C_NEXT  &kp N6          &rhmrow RGUI N7       &rhmrow RSHFT N8  &rhmrow RIGHT_ALT N9  &rhmrow RCTRL N0       &as PLUS EQUAL
-&mk_capt  &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &ht LA(LC(LS(LEFT))) LC(LEFT)  &ht LA(LC(LS(RIGHT))) LC(RIGHT)  &dt_ameth    &none                    &kp C_VOLUME_DOWN                         &as PLUS EQUAL  &as UNDERSCORE MINUS  &trans            &trans                &trans                 &as GRAVE TILDE
-                                                                      &kp LA(LS(B))                  &trans                           &trans                                                                          &trans          &trans                &trans
+&trans    &kp EXCLAMATION              &kp AT_SIGN                    &kp POUND                      &kp DOLLAR                       &kp PERCENT                     &kp UP_ARROW             &kp LCTRL       &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
+&trans    &lhmrow LCTRL NUMBER_1       &lhmrow LALT NUMBER_2          &lhmrow LEFT_SHIFT NUMBER_3    &lhmrow LGUI NUMBER_4            &kp N5                &kp LEFT  &kp ENTER     &kp RIGHT  &kp N6          &rhmrow RGUI N7       &rhmrow RSHFT N8  &rhmrow RIGHT_ALT N9  &rhmrow RCTRL N0       &as PLUS EQUAL
+&mk_capt  &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &ht LA(LC(LS(LEFT))) LC(LEFT)  &ht LA(LC(LS(RIGHT))) LC(RIGHT)  &dt_ameth    &none              &kp DOWN                 &as PLUS EQUAL  &as UNDERSCORE MINUS  &trans            &trans                &trans                 &as GRAVE TILDE
+                                                                      &kp LA(LS(B))                  &trans                           &trans                                                   &trans          &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
