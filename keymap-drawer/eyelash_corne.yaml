@@ -323,7 +323,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&cat_sh_hml'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
