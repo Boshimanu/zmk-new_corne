@@ -424,13 +424,13 @@
         Colemak {
             display-name = "Colemak";
             bindings = <
-&ht LS(TAB) TAB             &kp Q            &kp W               &kp F                 &kp P               &kp G                                         &kp C_VOLUME_UP                           &kp J        &kp L                &kp U                  &kp Y                    &kp SEMI            &kp BSLH
-&ht_bck LA(BSPC) BACKSPACE  &lhmrow LCTRL A  &lhmrow LEFT_ALT R  &lhmrow LEFT_SHIFT S  &lhmrow LEFT_GUI T  &kp D                             &kp C_PREV  &as C_MUTE LS(LC(LG(LA(P))))  &kp C_NEXT  &kp H        &rhmrow RIGHT_GUI N  &rhmrow RIGHT_SHIFT E  &rhmrow RIGHT_ALT I      &rhmrow RCTRL O     &kp SQT
-&cat_nav_sh                 &kp Z            &kp X               &kp C                 &kp V               &kp B           &kt LEFT_SHIFT                &kp C_VOL_DN                              &kp K        &kp M                &as LESS_THAN COMMA    &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp RSHFT
-                                                                 &raycast              &lt 1 SPACE         &ht LCMD ENTER                                                                          &lt 6 ENTER  &lt 2 SPACE          &mo 3
+&ht LS(TAB) TAB             &kp Q            &kp W               &kp F                 &kp P               &kp G                                     &kp C_VOLUME_UP                           &kp J        &kp L                &kp U                  &kp Y                    &kp SEMI            &kp BSLH
+&ht_bck LA(BSPC) BACKSPACE  &lhmrow LCTRL A  &lhmrow LEFT_ALT R  &lhmrow LEFT_SHIFT S  &lhmrow LEFT_GUI T  &kp D                         &kp C_PREV  &as C_MUTE LS(LC(LG(LA(P))))  &kp C_NEXT  &kp H        &rhmrow RIGHT_GUI N  &rhmrow RIGHT_SHIFT E  &rhmrow RIGHT_ALT I      &rhmrow RCTRL O     &kp SQT
+&cat_nav_sh                 &kp Z            &kp X               &kp C                 &kp V               &kp B           &kp C_MUTE                &kp C_VOL_DN                              &kp K        &kp M                &as LESS_THAN COMMA    &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp RSHFT
+                                                                 &raycast              &lt 1 SPACE         &ht LCMD ENTER                                                                      &lt 6 ENTER  &lt 2 SPACE          &mo 3
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Numbers {
@@ -448,13 +448,13 @@
         Move {
             display-name = "Move";
             bindings = <
-&trans       &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG                            &mmv MOVE_UP                     &kp DEL           &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &trans    &kp PG_UP
-&trans       &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp ENTER                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(UP_ARROW)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp INS   &kp PG_DN
-&cat_nav_sh  &trans           &trans           &trans           &trans           &kp SPACE        &trans                    &mmv MOVE_DOWN                   &kp LG(DOWN)      &kp LG(LEFT)  &trans    &kp LG(RIGHT)  &kp HOME  &kp END
-                                               &trans           &trans           &trans                                                                      &trans            &trans        &trans
+&trans       &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG                                     &mmv MOVE_UP                     &kp DEL           &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &trans    &kp PG_UP
+&trans       &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp ENTER                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(UP_ARROW)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp INS   &kp PG_DN
+&cat_nav_sh  &trans           &trans           &trans           &trans           &kp SPACE        &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp LG(DOWN)      &kp LG(LEFT)  &trans    &kp LG(RIGHT)  &kp HOME  &kp END
+                                               &trans           &trans           &trans                                                                               &trans            &trans        &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
         Italian {
