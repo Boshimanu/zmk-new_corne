@@ -430,7 +430,7 @@
                                                                  &raycast              &lt 1 SPACE         &ht LCMD ENTER                                                                          &lt 6 ENTER  &lt 2 SPACE          &mo 3
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         Numbers {
