@@ -113,10 +113,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFR
-  - RGB BRD
-  - RGB SAD
-  - RGB SPD
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -128,10 +128,10 @@ layers:
   - INS
   - PG DN
   - '&cat_nav_sh'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
+  - RGB BRD
+  - RGB SAD
+  - RGB SPD
   - $$mdi:keyboard-space$$
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
