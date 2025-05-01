@@ -471,10 +471,10 @@
 
         Emoji {
             bindings = <
-&trans  &trans   &elove   &efp        &ehmmm       &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &elaugh  &esmile  &eok        &ethank      &esad             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &doublecmd  &doublectrl  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans      &trans       &trans                                    &trans  &trans  &trans
+&trans  &trans   &elove   &efp        &ehmmm       &trans                            &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &elaugh  &esmile  &eok        &ethank      &esad             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &doublecmd  &doublectrl  &trans  &trans                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans      &trans       &trans                                                             &trans  &trans  &trans
             >;
 
             label = "Emoji";
