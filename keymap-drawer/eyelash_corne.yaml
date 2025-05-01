@@ -354,7 +354,7 @@ combos:
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
   l: [Numbers, Colemak, Move]
 - p: [31, 32]
-  k: Gui+P
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [Colemak, Move, Numbers]
 - p: [3, 4]
   k: $$mdi:backspace-reverse-outline$$
