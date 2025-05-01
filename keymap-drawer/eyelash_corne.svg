@@ -628,9 +628,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
-<a href="#Colemak">
-<text x="56" y="161" class="combo tap layer-activator"><tspan style="font-size: 86%">Colemak</tspan></text>
-</a><text x="56" y="172" class="combo hold">toggle</text>
+<text x="56" y="161" class="combo tap">Z</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="48" y="157" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
@@ -970,9 +969,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
-<a href="#Colemak">
-<text x="56" y="161" class="combo tap layer-activator"><tspan style="font-size: 86%">Colemak</tspan></text>
-</a><text x="56" y="172" class="combo hold">toggle</text>
+<text x="56" y="161" class="combo tap">Z</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="48" y="157" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
@@ -1311,9 +1309,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
-<a href="#Colemak">
-<text x="56" y="161" class="combo tap layer-activator"><tspan style="font-size: 86%">Colemak</tspan></text>
-</a><text x="56" y="172" class="combo hold">toggle</text>
+<text x="56" y="161" class="combo tap">Z</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="48" y="157" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>

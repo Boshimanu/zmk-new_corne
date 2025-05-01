@@ -360,7 +360,7 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [Colemak, Move, Numbers]
 - p: [28, 29]
-  k: {t: Colemak, h: toggle}
+  k: {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   l: [Colemak, Move, Numbers]
 - p: [17, 16]
   k: Gui+$$mdi:apple-keyboard-shift$$
