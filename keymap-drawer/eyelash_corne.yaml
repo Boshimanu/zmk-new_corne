@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
+  - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - K
   - M
@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Gui+$$mdi:arrow-down-bold$$
   - Gui+$$mdi:arrow-left-bold$$
