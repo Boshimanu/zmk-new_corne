@@ -436,10 +436,10 @@
         Numbers {
             display-name = "Numbers";
             bindings = <
-&trans    &kp EXCLAMATION              &kp AT_SIGN                    &kp POUND                      &kp DOLLAR                       &kp PERCENT                     &kp UP_ARROW             &kp LCTRL       &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
-&trans    &lhmrow LCTRL NUMBER_1       &lhmrow LALT NUMBER_2          &lhmrow LEFT_SHIFT NUMBER_3    &lhmrow LGUI NUMBER_4            &kp N5                &kp LEFT  &kp ENTER     &kp RIGHT  &kp N6          &rhmrow RGUI N7       &rhmrow RSHFT N8  &rhmrow RIGHT_ALT N9  &rhmrow RCTRL N0       &as PLUS EQUAL
-&mk_capt  &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &ht LA(LC(LS(LEFT))) LC(LEFT)  &ht LA(LC(LS(RIGHT))) LC(RIGHT)  &dt_ameth    &none              &kp DOWN                 &as PLUS EQUAL  &as UNDERSCORE MINUS  &trans            &trans                &trans                 &as GRAVE TILDE
-                                                                      &kp LA(LS(B))                  &trans                           &trans                                                   &trans          &trans                &trans
+&trans    &kp EXCLAMATION              &kp AT_SIGN                    &kp POUND                    &kp DOLLAR                   &kp PERCENT                     &kp UP_ARROW             &kp LCTRL       &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
+&trans    &lhmrow LCTRL NUMBER_1       &lhmrow LALT NUMBER_2          &lhmrow LEFT_SHIFT NUMBER_3  &lhmrow LGUI NUMBER_4        &kp N5                &kp LEFT  &kp ENTER     &kp RIGHT  &kp N6          &rhmrow RGUI N7       &rhmrow RSHFT N8  &rhmrow RIGHT_ALT N9  &rhmrow RCTRL N0       &as PLUS EQUAL
+&mk_capt  &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &ht LA(LC(LS(W))) LC(LEFT)   &ht LA(LC(LS(E))) LC(RIGHT)  &dt_ameth    &none              &kp DOWN                 &as PLUS EQUAL  &as UNDERSCORE MINUS  &trans            &trans                &trans                 &as GRAVE TILDE
+                                                                      &kp LA(LS(B))                &trans                       &trans                                                   &trans          &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -448,13 +448,13 @@
         Move {
             display-name = "Move";
             bindings = <
-&trans       &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG                                     &mmv MOVE_UP                     &kp DEL           &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &trans    &kp PG_UP
-&trans       &kp LCTRL        &kp LALT         &kp LSHFT        &kp LGUI         &kp ENTER                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(UP_ARROW)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp INS   &kp PG_DN
-&cat_nav_sh  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp SPACE        &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp LG(DOWN)      &kp LG(LEFT)  &trans    &kp LG(RIGHT)  &kp HOME  &kp END
-                                               &trans           &trans           &trans                                                                               &trans            &trans        &trans
+&trans       &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG                                       &mmv MOVE_UP                     &kp DEL           &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &trans    &kp PG_UP
+&trans       &kp LCTRL        &kp LALT         &kp LSHFT        &kp LGUI         &kp ENTER                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(UP_ARROW)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp INS   &kp PG_DN
+&cat_nav_sh  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp SPACE        &kp LA(LS(LC(Z)))                    &mmv MOVE_DOWN                   &kp LG(DOWN)      &kp LG(LEFT)  &trans    &kp LG(RIGHT)  &kp HOME  &kp END
+                                               &trans           &trans           &trans                                                                                 &trans            &trans        &trans
             >;
 
-            sensor-bindings = <&rgb_encoder>;
+            sensor-bindings = <&inc_dec_kp LS(LA(U)) LS(LA(L))>;
         };
 
         Italian {
