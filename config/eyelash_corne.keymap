@@ -167,7 +167,7 @@
             label = "RIGHT_SCREEN";
             #binding-cells = <0>;
             tapping-term-ms = <185>;
-            bindings = <&ht LA(LS(LC(E))) LC(RIGHT)>, <&kp LA(LS(E))>;
+            bindings = <&ht LA(LS(LC(E))) LC(RIGHT)>, <&kp LA(LS(Y))>;
         };
     };
 
@@ -446,7 +446,7 @@
                                                                  &raycast              &lt 1 SPACE         &ht LCMD ENTER                                                                      &lt 6 ENTER  &lt 2 SPACE          &mo 3
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp LS(LA(E)) LA(LS(N))>;
         };
 
         Numbers {
