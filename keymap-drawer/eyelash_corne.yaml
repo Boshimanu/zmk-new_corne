@@ -81,8 +81,8 @@ layers:
   - '&mk_capt'
   - {t: '[', h: '{', s: '{'}
   - {t: ']', h: '}', s: '}'}
-  - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: 'Meh+$$mdi:arrow-left-bold$$'}
-  - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: 'Meh+$$mdi:arrow-right-bold$$'}
+  - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: Meh+W}
+  - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: Meh+E}
   - '&dt_ameth'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -133,7 +133,7 @@ layers:
   - RGB SAD
   - RGB SPD
   - $$mdi:keyboard-space$$
-  - RGB TOG
+  - Meh+Z
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Gui+$$mdi:arrow-down-bold$$
   - Gui+$$mdi:arrow-left-bold$$
