@@ -482,7 +482,7 @@
                                                &kp LS(LA(LC(D)))      &trans                &trans                                                                               &trans      &trans      &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp LS(LA(SPACE)) LS(LA(LC(SPACE)))>;
         };
 
         Emoji {
@@ -494,6 +494,7 @@
             >;
 
             label = "Emoji";
+            sensor-bindings = <&inc_dec_kp LS(LA(PERIOD)) LA(LS(COMMA))>;
         };
 
         BT_Sys {
