@@ -158,7 +158,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LEFT_SCREEN";
             #binding-cells = <0>;
-            tapping-term-ms = <185>;
+            tapping-term-ms = <200>;
             bindings = <&ht LA(LS(LC(W))) LC(LEFT)>, <&kp LA(LS(W))>;
         };
 
@@ -166,7 +166,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "RIGHT_SCREEN";
             #binding-cells = <0>;
-            tapping-term-ms = <185>;
+            tapping-term-ms = <200>;
             bindings = <&ht LA(LS(LC(E))) LC(RIGHT)>, <&kp LA(LS(Y))>;
         };
     };
