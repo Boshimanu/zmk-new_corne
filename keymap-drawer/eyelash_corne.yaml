@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:volume-off$$
+  - Alt+Sft+O
   - $$mdi:volume-low$$
   - K
   - M
