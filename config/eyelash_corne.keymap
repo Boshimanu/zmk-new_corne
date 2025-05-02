@@ -458,7 +458,7 @@
                                                                       &kp LA(LS(B))                &trans                 &trans                                                        &trans          &trans                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LS(LA(J)) LS(LA(LC(K)))>;
+            sensor-bindings = <&inc_dec_kp LS(LA(LC(J))) LS(LA(LC(K)))>;
         };
 
         Move {
