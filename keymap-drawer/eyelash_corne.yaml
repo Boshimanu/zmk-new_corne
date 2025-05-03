@@ -56,7 +56,7 @@ layers:
   - '#'
   - $
   - '%'
-  - $$mdi:arrow-up-bold$$
+  - Alt+Sft+S
   - $$mdi:apple-keyboard-control$$
   - '&'
   - '*'
@@ -69,9 +69,9 @@ layers:
   - {t: '3', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '4', h: LGUI}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-left-bold$$
+  - Alt+Sft+J
   - Meh+Z
-  - $$mdi:arrow-right-bold$$
+  - {t: Sft+Gui+Ctl+', s: Sft+Gui+Ctl+"}
   - {t: '6', s: ^}
   - {t: '7', h: RGUI, s: '&'}
   - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: '*'}
@@ -85,7 +85,7 @@ layers:
   - '&right_screen'
   - '&dt_ameth'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-down-bold$$
+  - Sft+Alt+D
   - {t: '=', h: +, s: +}
   - {t: '-', h: _, s: _}
   - {t: '$$mdi:transfer$$', type: trans}
