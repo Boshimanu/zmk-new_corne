@@ -311,7 +311,7 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL &kp LCTRL>;
             label = "DOUBLECTRL";
-            wait-ms = <50>;
+            wait-ms = <100>;
         };
 
         efp: efp {
