@@ -70,7 +70,7 @@ layers:
   - {t: '4', h: LGUI}
   - {t: '5', s: '%'}
   - Alt+Sft+J
-  - Meh+Z
+  - Sft+Alt+B
   - {t: Sft+Gui+Ctl+', s: Sft+Gui+Ctl+"}
   - {t: '6', s: ^}
   - {t: '7', h: RGUI, s: '&'}
@@ -84,7 +84,7 @@ layers:
   - '&left_screen'
   - '&right_screen'
   - '&dt_ameth'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Meh+Z
   - Sft+Alt+D
   - {t: '=', h: +, s: +}
   - {t: '-', h: _, s: _}
