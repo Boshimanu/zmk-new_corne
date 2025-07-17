@@ -146,8 +146,11 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CAT_NAV_SH";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&ht LEFT_SHIFT LS(LA(LG(SLASH)))>, <&to 6>;
+            tapping-term-ms = <190>;
+            bindings =
+                <&ht LEFT_SHIFT LS(LA(LG(SLASH)))>,
+                <&kp RG(RS(G))>,
+                <&to 6>;
         };
 
         raycast: raycast {
