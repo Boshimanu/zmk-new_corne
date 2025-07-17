@@ -4,7 +4,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-tab-reverse$$'}
   - Q
   - W
-  - F
+  - '&mic'
   - P
   - G
   - $$mdi:volume-high$$
