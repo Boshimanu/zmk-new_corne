@@ -449,6 +449,11 @@
             require-prior-idle-ms = <50>;
             layers = <0 2 1>;
         };
+
+        ShortCat {
+            bindings = <&kp LA(LS(LG(SLASH)))>;
+            key-positions = <9 10>;
+        };
     };
 
     keymap {
