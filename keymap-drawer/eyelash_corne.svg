@@ -676,6 +676,18 @@ rect.held, rect.combo.held {
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-16">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-Numbers">
@@ -1032,6 +1044,18 @@ rect.held, rect.combo.held {
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-16">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-Move">
@@ -1376,6 +1400,18 @@ rect.held, rect.combo.held {
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-16">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-Italian">
@@ -1649,6 +1685,18 @@ rect.held, rect.combo.held {
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-2">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1274)" class="layer-Emoji">
@@ -1907,6 +1955,18 @@ rect.held, rect.combo.held {
 <text x="812" y="31" class="combo tap">
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
+</g>
+<g class="combo combopos-1">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-2">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
 </g>
 </g>
@@ -2167,6 +2227,18 @@ rect.held, rect.combo.held {
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-2">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1911)" class="layer-Mouse">
@@ -2420,6 +2492,18 @@ rect.held, rect.combo.held {
 <text x="812" y="31" class="combo tap">
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
+</g>
+<g class="combo combopos-1">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-2">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
 </g>
 </g>
@@ -2681,6 +2765,18 @@ rect.held, rect.combo.held {
 <text x="812" y="31" class="combo tap">
 <tspan x="812" dy="-0.6em" style="font-size: 67%">Alt+</tspan><tspan x="812" dy="1.2em" style="font-size: 67%">Sft+Gui+/</tspan>
 </text>
+</g>
+<g class="combo combopos-1">
+<path d="M140,93 l-38,8" class="combo"/>
+<path d="M140,93 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="126" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="131" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-2">
+<path d="M840,93 l-38,-6" class="combo"/>
+<path d="M840,93 l38,8" class="combo"/>
+<rect rx="6" ry="6" x="826" y="80" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="831" y="84" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
 </g>
 </g>
