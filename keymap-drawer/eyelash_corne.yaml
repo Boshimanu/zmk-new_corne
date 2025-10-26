@@ -435,3 +435,5 @@ combos:
 - p: [25, 24]
   k: AltGr+$$mdi:apple-keyboard-shift$$
   l: [Colemak, Move, Numbers]
+- p: [9, 10]
+  k: Alt+Sft+Gui+/
