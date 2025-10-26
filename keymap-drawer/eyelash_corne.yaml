@@ -437,7 +437,10 @@ combos:
   l: [Colemak, Move, Numbers]
 - p: [9, 10]
   k: Alt+Sft+Gui+/
+  l: [Colemak, Move, Numbers]
 - p: [14, 15, 16]
   k: Sft+Alt+$$mdi:apple-keyboard-control$$
+  l: [Colemak, Move, Numbers]
 - p: [24, 25, 26]
   k: Sft+Alt+$$mdi:apple-keyboard-control$$
+  l: [Colemak, Move, Numbers]
