@@ -2,9 +2,9 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   Colemak:
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-tab-reverse$$'}
-  - Q
-  - W
-  - F
+  - {t: Q, h: Gui+Q}
+  - {t: W, h: Gui+W}
+  - {t: F, h: F}
   - P
   - G
   - $$mdi:volume-high$$
@@ -30,14 +30,14 @@ layers:
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', s: '"'}
   - '&cat_nav_sh'
-  - Z
-  - X
-  - C
-  - V
+  - {t: Z, h: Z}
+  - {t: X, h: X}
+  - {t: C, h: C}
+  - {t: V, h: V}
   - B
   - Alt+Sft+O
   - $$mdi:volume-low$$
-  - K
+  - {t: K, h: Gui+K}
   - M
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
